@@ -18,10 +18,10 @@ Step 2: Run the following commands depending on your system:
 If step 2 fails you can attempt to run the application with IntelliJ IDEA
 
 ## Endpoints
--   "localhost:8080/questions" (GET): receive a trivia quiz with 10 random questions
--   "localhost:8080/checkanswers/{idQuiz}" (POST): receive the results of the given answers corresponding to the given quiz with id "idQuiz".  
+-   **localhost:8080/questions** *(GET)*: receive a trivia quiz with 10 random questions.
+-   **localhost:8080/checkanswers/{idQuiz}** *(POST)*: receive the results of the given answers corresponding to the given quiz with id parameter "**idQuiz**".  
 Answers must be submitted as a string array within the body of this request.  
-    **Example of answers request body:**  
+    *Example of answers request body:*  
     [
         "True",
         "False",
